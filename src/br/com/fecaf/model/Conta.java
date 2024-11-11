@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Conta {
     private int numeroConta;
-    private String agencia = "2808-XX";
+    private String agencia = "4662-XX";
     String password, confirmPassword;
     private double saldo = 0;
     private Cliente cliente;
@@ -54,7 +54,7 @@ public class Conta {
 
         if (saldo < valorSaque){
             System.out.println("Saldo Indisponivel ...");
-            System.out.println("Vai te embora !");
+            System.out.println("Volte a página! !");
         } else {
             saldo -= valorSaque;
         }
