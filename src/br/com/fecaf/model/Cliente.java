@@ -19,18 +19,18 @@ public class Cliente  {
 
     public boolean cadastrarCliente() {
         System.out.println("/--------------  Cadastro Cliente  ------------/");
-        System.out.print("Informe o nome: ");
+        System.out.print("Informe seu nome: ");
         nome = scanner.nextLine();
-        System.out.print("Informe o CPF: ");
+        System.out.print("Informe seu CPF: ");
         cpf = scanner.nextLong();
-        System.out.print("Informe o RG: ");
+        System.out.print("Informe seu RG: ");
         rg = scanner.nextLong();
-        System.out.print("Informe o telefone: ");
+        System.out.print("Informe seu telefone: ");
         telefone = scanner.nextLong();
-        System.out.print("Informe a idade: ");
+        System.out.print("Informe sua idade: ");
         idade = scanner.nextInt();
         scanner.nextLine();
-        System.out.print("Informe o email: ");
+        System.out.print("Informe seu email: ");
         email = scanner.nextLine();
         System.out.println("/-----------------------------------------------/");
 
