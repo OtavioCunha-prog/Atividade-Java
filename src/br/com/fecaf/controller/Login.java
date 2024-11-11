@@ -12,10 +12,10 @@ public class Login {
 
     public Conta realizarLogin (Conta referenciaContas, Cliente referenciaClientes) {
 
-        System.out.print("Informe o CPF: ");
+        System.out.print("Informe seu CPF: ");
         long cpfUser = scanner.nextLong();
         scanner.nextLine();
-        System.out.print("Informe a Senha: ");
+        System.out.print("Informe sua Senha: ");
         String senhaUser = scanner.nextLine();
 
         Cliente clienteConta = referenciaClientes.pesquisarCliente(cpfUser);
