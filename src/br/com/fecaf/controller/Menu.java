@@ -146,9 +146,9 @@ public class Menu {
         int optionIdeias = random.nextInt(4);
         switch (optionIdeias) {
             case 1 -> System.out.println("As melhores taxas estão aqui !");
-            case 2 -> System.out.println("Investir é mirar no sucesso !");
-            case 3 -> System.out.println("O banco FECAF é lider em boa reputação !");
-            default -> System.out.println("Serviços exclusivos para você !");
+            case 2 -> System.out.println("Invista e tenha a rende de 102% do CDI !");
+            case 3 -> System.out.println("O banco FECAF é TOP!");
+            default -> System.out.println("Serviços Personalizados para você !");
         }
 
     }
